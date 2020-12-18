@@ -1,1 +1,12 @@
 this is my python test file
+
+
+Some Important PEP 8 Rules
+We will show you some important PEP 8 traditional rules that you can follow.
+•	Limit all lines to a maximum of 79 characters. For flowing long blocks of text with fewer structural restrictions (docstrings or comments), the line length should be limited to 72 characters. During this course, we will learn some ways of reducing the length of lines.
+•	Spaces are the preferred indentation method. Tabs should be used solely to remain consistent with code that is already indented with tabs. Python 3 disallows mixing the use of tabs and spaces for indentation.
+•	Avoid extraneous whitespaces in the following situations:
+
+
+
+this is my second changing in this file..
