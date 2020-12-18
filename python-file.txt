@@ -1,0 +1,29 @@
+Python Assignment-1 
+Problem : If you had deposited a coin on the cryptocurrency exchange that brought 7% fixed profit daily for a week, how much would your $ 1000 reach at the end of the 7th day?
+Answer :  At the beginning, our money was $1000 and increased with 7 persent interest everyday. 
+If we start to calculate accordingly;
+Today: 1000$
+1st day: 1000 + 1000*7/100 = 1070
+2nd day: 1070 + 1070*7/100 = 1144,9
+3rd day: 1144,9 +1144,9*7/100 = 1225,043
+4th day: 1225,043 + 1225,043*7/100 = 1310,79601
+5th day: 1310,79601 + 1310,79601*7/100 = 1402,5517307
+6th day: 1402,5517307 + 1402,5517307*7/100 = 1500,730351849
+7th day: 1500,730351849 + 1500,730351849*7/100 =1605,78147647843 
+If we want to formulate this calculation;
+The increase in the capital is 1.07, with 7 percent interest every day. In other words, the money increasing by 1000 * (1.07) on the 1st day, 1000 * (1.07)*(1,07) on the 2nd day as continues to increase exponentially until the 7 th day . In this case, our formula is 1000*(1,07)^7.
+We want to print this formula in Python:
+Shortening i:(Capital=C,  Price=p, Daily Increase=i, Day=d, End of the Money=EM)
+C=1000
+p=0.7
+i=1.07
+d=7
+print(float(C*(i)**d))
+1605.7814764784307
+EM = int(C*(i)**d)
+print( EM – C )
+605
+
+Conclusion:
+At the end of seven day, our capital reached ~1605 $ and amount of increased ~605 $.
+
