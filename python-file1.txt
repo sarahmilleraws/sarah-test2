@@ -1,0 +1,48 @@
+Assignment-2 (Covid-19 Possibility)
+
+Answer:  The result will change when the personal information (age, immune and chronic) is changed. 4 different risks were calculated for two samples according to boolean operators.
+
+Input 1:
+age= False      # a sigarette addict older than 75
+chronic=True    #have a chronic disease
+immune= False   #immune system to weak
+# risk: There is a risk of death because of covid-19
+
+risk1=age or chronic or immune
+risk2=age or chronic and immune
+risk3=age and chronic and immune
+risk4=age and chronic or immune
+
+print (risk1)
+print(risk2)
+print(risk3)
+print(risk4)
+
+Output1:
+True
+False
+False
+False
+
+Input 2:
+age= True     # a sigarette addict older than 75
+chronic=True    #have a chronic disease
+immune= False   #immune system to weak
+# risk: There is a risk of death because of covid-19
+
+risk1=age or chronic or immune
+risk2=age or chronic and immune
+risk3=age and chronic and immune
+risk4=age and chronic or immune
+
+print (risk1)
+print(risk2)
+print(risk3)
+print(risk4)
+
+Output2:
+True
+True
+False
+True
+
